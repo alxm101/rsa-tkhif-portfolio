@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .navbar-custom {
+    background-color: #7678ED;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #FFFFFF !important;
+  }
+  .navbar-custom .nav-link:hover {
+    color: #F18701 !important;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: #7678ED;
+  }
+  
+  .btn-custom {
+    background-color: #F18701;
+    color: #FFFFFF;
+    border: none;
+  }
+  .btn-custom:hover {
+    background-color: #c96a00;
+  }
+  
+  .placeholder-box {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .form-control {
+    border: 2px solid #7678ED;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #F18701;
+  }
+  

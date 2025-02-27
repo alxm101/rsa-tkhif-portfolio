@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rakeen's Portfolio - Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="index.html">Rakeen's Portfolio</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" style="color: #fff;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <p>
+      <strong>DISCLAIMER:</strong> These are all fictional / not mine. I chose to showcase them because
+      I found them interesting.
+    </p>
+    <div class="row d-flex justify-content-around">
+      <div class="card mb-4" style="width: 18rem;">
+        <img
+          class="card-img-top"
+          src="InstaLockValorantLogo.jpg"
+          alt="Project 1 placeholder"
+        />
+        <div class="card-body">
+          <h5 class="card-title">InstaLock</h5>
+          <p class="card-text">
+            A full-stack web application was developed using Express.js and React with Vite to interact with Riot Games' API for Valorant. The app displays user metadata and allows modifications to certain elements. Additionally, a database scraping feature was implemented to extract and analyze player data, identifying trends across matches. The platform currently tracks over 3,000 players across 400+ matches, with 100+ active users and growing.
+          </p>
+        </div>
+      </div>
+      <div class="card mb-4" style="width: 18rem;">
+        <img
+          class="card-img-top"
+          src="InterviewWizardLogo.jpg"
+          alt="Project 2 placeholder"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Interview Wizard</h5>
+          <p class="card-text">
+            This project is a Discord bot designed to enhance users' technical interview skills by joining voice channels, recording conversations during coding practice sessions, and providing detailed feedback on communication skills. The bot leverages the Google Generative AI (Gemini) API for audio analysis and MongoDB for storing and retrieving interview data. It uses semantic analysis with the @xenova/transformers library to generate embeddings and find similar previous interviews, enhancing the feedback with personalized guidance.
+          </p>
+        </div>
+      </div>
+      <div class="card mb-4" style="width: 18rem;">
+        <img
+          class="card-img-top"
+          src="ParkRLogo.jpg"
+          alt="Project 3 placeholder"
+        />
+        <div class="card-body">
+          <h5 class="card-title">ParkR</h5>
+          <p class="card-text">
+            Crowd sourced car parking app that allows user to map parking spots in the NYC area. The app also uses population density to predict the risk of a parking spot being taken. Programming Languages / API / Framework used: Python, Flask (Python web framework), JavaScript, GoogleMaps API, OpenAI Api, Flask SQLALCHEMY (database), HTML/CSS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
